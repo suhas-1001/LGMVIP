@@ -6,8 +6,8 @@
 
 body{
 	height: 100vh;
-	background: #03dfff;
-	background: linear-gradient(#03ddffcb 0%);
+	background: linear-gradient(to right bottom, lightblue, lightyellow, lightpink);
+	/* background: linear-gradient(#03ddffcb 0%); */
 }
 
 .container{
@@ -48,13 +48,16 @@ body{
 }
 
 .notCompleted, .Completed{
-	margin: 5px;
-	padding: 20px;
+	color: black;
+	margin: auto;
+	padding: 10px;
+	width: 70%;
+	align-content: center;
 }
 
 h1{
 	text-align: center;
-	background-color: red;
+	background-color: rgb(227, 144, 144);
 	font-size: 60px;
 }
 
@@ -62,7 +65,7 @@ h2{
 	font-size: 28px;
 	text-transform: uppercase;
 	text-align: center;
-	color: #fff;
+	color: black;
 }
 
 ol{
